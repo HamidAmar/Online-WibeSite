@@ -1,0 +1,53 @@
+body,
+html
+{
+	height: 100%;
+	width: 100%;
+	font-family: 'Monoton', cursive;
+	background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	word-spacing: 1rem;
+	letter-spacing: 0.4cm;
+	font-size: 4rem;
+	color: white;
+}
+
+hr{
+	border: 1px solid #FF1A1A;
+	max-width: 5rem;
+}
+
+.btn{
+	padding: 1.3rem 2rem;
+	color: black;
+	text-transform: uppercase;
+	word-spacing: 4px;
+}
+
+.btn-primary{
+	border-radius: 300px;
+	
+}
+
+.btn-lg{
+	font-size: 2rem;
+	background-color: #FF1A1A;
+	border:3px solid #FF1A1A;
+
+}
+
+.btn:hover{
+	background: #F30000;
+	border: 4px solid #F30000;
+	color: black;
+}
+
+.buffer{
+	height: 23rem;
+}
